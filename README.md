@@ -11,7 +11,7 @@ PasswordGenerator passwordGenerator = new PasswordGenerator();
 		
 Password password = passwordGenerator.generateNew().getPassword();
 		
-System.out.println(password.getString());
+String passwordString = password.getString();
 		
 password.copyToClipboard();
 ```
