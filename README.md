@@ -5,8 +5,10 @@
 
 ```java
 PasswordGenerator passwordGenerator = new PasswordGenerator();
-		
-Password password = passwordGenerator.generateNew().getPassword();
+
+passwordGenerator.generateNew()
+
+Password password = passwordGenerator.getPassword();
 		
 String passwordString = password.getString();
 		
