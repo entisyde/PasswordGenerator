@@ -1,9 +1,6 @@
 
 # Password Generator
 
-Just a simple Password Generator written in Java
-
-
 ## Usage/Examples
 
 ```java
